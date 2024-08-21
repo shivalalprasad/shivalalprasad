@@ -1,7 +1,7 @@
 <!-- <h1 align="center">Hi 👋, I'm Shivalal Prasad</h1>
 <h3 align="center">A passionate Full Stack Web developer</h3> -->
 <h3 align="center"><img src="https://readme-typing-svg.herokuapp.com/?font=Jersey+10&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Shivalal+Prasad!;A+Passionate;Full+Stack+Web+developer" /></h3>
-<span align="right" ><img align="right" height="250" src="./workflows/coder.svg" alt="coding..."/></span>
+<span align="right" ><img align="right" height="250" src="./assets/coder.svg" alt="coding..."/></span>
 <span>
 
 [![](https://visitcount.itsvg.in/api?id=shivalalprasad&icon=0&color=0)](https://visitcount.itsvg.in)
