@@ -1,11 +1,17 @@
-'use client'
-
-import './css/master.css'
+// 'use client'
 
 
 export default function Resume() {
   return (
     <>
+      <link rel="stylesheet" type="text/css" href="css/master.css" />
+      <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato|Roboto"
+        rel="stylesheet"
+      />
+      <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css"
+        rel="stylesheet" />
       <header className="header">
         <div className="container">
           <div className="row">
