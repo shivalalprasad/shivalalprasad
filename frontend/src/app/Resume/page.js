@@ -4,7 +4,7 @@
 export default function Resume() {
   return (
     <>
-      <link rel="stylesheet" type="text/css" href="css/master.css" />
+      {/* <link rel="stylesheet" type="text/css" href="css/master.css" />
       <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
       <link
         href="https://fonts.googleapis.com/css?family=Lato|Roboto"
@@ -697,7 +697,7 @@ export default function Resume() {
       <script src="./js/jquery.placeholder.min.js"></script>
       <script src="./js/mixitup.min.js"></script>
       <script src="./js/wow.min.js"></script>
-      <script src="./js/theme.js"></script>
+      <script src="./js/theme.js"></script> */}
     </>
   );
 }
