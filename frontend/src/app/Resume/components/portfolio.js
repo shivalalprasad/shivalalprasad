@@ -76,7 +76,7 @@ export default function Portfolio() {
                     className="portfolio-box"
                   >
                     <div className="portfolio-img">
-                      <img src="./images/physics.png" />
+                      <img src="./images/Physics.png" />
                     </div>
                     <div className="portfolio-name">
                       <span>Physics Department web app</span>
