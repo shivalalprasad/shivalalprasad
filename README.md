@@ -12,7 +12,7 @@
 
 - [ ] 📫 How to reach me **<shivalalprasad@flash.co>**
 
-- [ ] 📄 Know about my experiences [Resume](https://shivalal-prasad.vercel.app/Resume)
+- [ ] 📄 Know about my experiences [Resume](https://shivalalprasad.vercel.app/Resume)
 
 - [ ] ⚡ Fun fact **I am too funny 😅**
 </span>
