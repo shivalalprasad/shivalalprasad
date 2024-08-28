@@ -1,3 +1,4 @@
+import Navbar from "./navbar";
 
 
 
@@ -25,7 +26,7 @@ export default function Header() {
                 <ul className="list-inline">
                   <li><a href="#hello">Hello</a></li>
                   <li><a href="#skills">Skills</a></li>
-                  {/* <li><a href="#experience">Experience</a></li> */}
+                  <li><a href="#experience">Experience</a></li>
                   <li><a href="#education">Education</a></li>
                   <li><a href="#portfolio">Portfolio</a></li>
                 </ul>
@@ -39,6 +40,7 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <Navbar />
     </>
   )
 }
