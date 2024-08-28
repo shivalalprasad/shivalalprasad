@@ -7,9 +7,23 @@ export default function Footer() {
       <footer className="footer text-center">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 wow zoomIn">
-              <div className="copyright">
-                <p>&copy; 2024 TS</p>
+            <div className="flex justify-around col-md-12 wow zoomIn">
+              <div className="copyright self-center">
+                <p>copyright &copy; 2024 Shivalal Pradad</p>
+              </div>
+              <div className="flex justify-evenly gap-8">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/shivalal_prasad"
+                    className="mdi fonts-icons mdi-instagram"></a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/shivalalprasad"
+                    className="mdi fonts-icons mdi-linkedin"></a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/shivalalprasad"
+                    className="mdi fonts-icons mdi-github-circle"></a>
               </div>
             </div>
           </div>
