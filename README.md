@@ -8,11 +8,11 @@
 
 - [ ] 🌱 I’m currently learning **React.js,Next.js & Express.js**
 
-- [ ] 👨‍💻 All of my projects are available at [Portfolio](https://shivalal-prasad.vercel.app)
+- [ ] 👨‍💻 All of my projects are available at [Portfolio](https://shivalalprasad.vercel.app/Resume#portfolio)
 
 - [ ] 📫 How to reach me **<shivalalprasad@flash.co>**
 
-- [ ] 📄 Know about my experiences [Resume](https://shivalal-prasad.vercel.app/resume)
+- [ ] 📄 Know about my experiences [Resume](https://shivalal-prasad.vercel.app/Resume)
 
 - [ ] ⚡ Fun fact **I am too funny 😅**
 </span>
