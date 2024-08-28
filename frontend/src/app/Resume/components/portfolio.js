@@ -37,7 +37,7 @@ export default function Portfolio() {
                   data-mixitup-control
                   data-filter="all"
                 >
-                  All projects
+                  All
                 </li>
                 <li
                   className="colored-link"
@@ -51,7 +51,7 @@ export default function Portfolio() {
                   data-mixitup-control
                   data-filter=".ui-ux-design"
                 >
-                  UI\UX design
+                  UI\UX
                 </li>
                 <li
                   className="colored-link"
