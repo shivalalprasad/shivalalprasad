@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <Education />
       <Portfolio />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </resume>
   );
 }

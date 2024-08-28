@@ -4,7 +4,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="footer text-center">
+      {/* <footer className="footer text-center">
         <div className="container">
           <div className="row">
             <div className="flex justify-around col-md-12 wow zoomIn">
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
       <script src="./js/jquery-2.2.3.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
       <script src="./js/jquery.placeholder.min.js"></script>
