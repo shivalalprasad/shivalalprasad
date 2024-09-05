@@ -5,16 +5,19 @@ export default function Portfolio() {
     window.open("https://physics-liart.vercel.app");
   };
   const GmailClick = () => {
-    window.open("https://gmail-clone-html-tailwind.vercel.app");
+    window.open("./Projects/Gmail/index.html");
   };
   const YoutubeClick = () => {
-    window.open("https://youtube-clone-tailwind-html.vercel.app");
+    window.open("./Projects/Youtube/index.html");
   };
   const RedBusClick = () => {
-    window.open("https://red-bus-landing-page-clone.vercel.app");
+    window.open("./Projects/RedBus/index.html");
   };
   const IpdcClick = () => {
-    window.open("https://web-page-ui-clone-xi.vercel.app");
+    window.open("./Projects/Ipdc/index.html");
+  };
+  const visualmeet = () => {
+    window.open("https://visual-meet-ts.vercel.app");
   };
   return (
     <section id="portfolio" className="section section-small-padding">
@@ -165,6 +168,26 @@ export default function Portfolio() {
                     </div>
                     <div className="portfolio-date">
                       <span>August, 2024</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX"
+                  onClick={visualmeet}>
+                  <a
+                    title="Visual Meet - a online meeting/conference App"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img
+                        src="./images/visual-meet.png"
+                        alt="visual-meet"
+                      />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Visual Meet</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>September, 2024</span>
                     </div>
                   </a>
                 </div>
