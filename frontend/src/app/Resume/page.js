@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 import Navbar from '../components/navbar';
 import Education from './components/education';
 // import Experience from './components/experience';
