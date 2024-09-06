@@ -5,6 +5,12 @@ import Navbar from "./navbar";
 export default function Header() {
   return (
     <>
+      <script src="./js/jquery-2.2.3.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/jquery.placeholder.min.js"></script>
+      <script src="./js/mixitup.min.js"></script>
+      <script src="./js/wow.min.js"></script>
+      <script src="./js/theme.js"></script>
       <link rel="stylesheet" type="text/css" href="css/master.css" />
       <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
       <link
