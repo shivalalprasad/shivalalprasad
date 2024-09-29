@@ -19,6 +19,9 @@ export default function Portfolio() {
   const visualmeet = () => {
     window.open("https://visual-meet-ts.vercel.app");
   };
+  const apparelstore = () => {
+    window.open("https://apparel-stores.vercel.app");
+  };
   return (
     <section id="portfolio" className="section section-small-padding">
       <div className="container">
@@ -185,6 +188,26 @@ export default function Portfolio() {
                     </div>
                     <div className="portfolio-name">
                       <span>Visual Meet</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>September, 2024</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX"
+                  onClick={apparelstore}>
+                  <a
+                    title="Apparel Store"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img
+                        src="./images/ApparelStore.png"
+                        alt="visual-meet"
+                      />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Apparel Store</span>
                     </div>
                     <div className="portfolio-date">
                       <span>September, 2024</span>
