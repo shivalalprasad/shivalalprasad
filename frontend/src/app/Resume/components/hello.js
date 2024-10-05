@@ -10,7 +10,7 @@ export default function Hello() {
           <div className="col-md-6 about-img-wrap">
             <div className="about-img wow slideInRight">
               <img
-                src="https://previews.aspirity.com/danny/media/hello-section/image.jpg"
+                src="./images/hero.jpg"
                 alt=""
                 className="img-responsive"
               />
@@ -70,25 +70,6 @@ export default function Hello() {
                   className="site-btn dgray-btn"
                   target="_blank">
                   Resume</a>
-                {/* <button
-                  className="resumebtn"
-                >
-                  Resume
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    class="w-5 h-5 animate-bounce"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-                    ></path>
-                  </svg>
-                </button> */}
               </div>
             </div>
           </div>
