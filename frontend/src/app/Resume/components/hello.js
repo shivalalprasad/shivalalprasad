@@ -1,9 +1,11 @@
 
-
+import localFont from '@next/font/local'
+// const NunitoLocal = localFont({ src: './Nunito/Nunito-VariableFont_wght.ttf' })
+const DankMono = localFont({ src: '../../fonts/DankMono-Bold.otf' })
 
 export default function Hello() {
   return (
-    <section id="hello" className="section">
+    <section id="hello" className={DankMono.className + " section"}>
 
       <div className="container">
         <div className="row">

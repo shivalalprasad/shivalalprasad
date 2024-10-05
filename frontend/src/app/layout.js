@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import Head from 'next/head'
 
@@ -6,7 +6,11 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from "./components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Nunito({ subsets: ["latin"] });
+
+import localFont from '@next/font/local'
+// const NunitoLocal = localFont({ src: './Nunito/Nunito-VariableFont_wght.ttf' })
+const DankMono = localFont({ src: './fonts/DankMono-italic.otf' })
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +25,10 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="./images/favicon.ico" />
       </Head>
-      <body className={inter.className}>
+      {/* <body className={NunitoLocal.className}> */}
+        {/* <body> */}
+        {/* <body className={inter.className}> */}
+        <body className={DankMono.className}>
         <Navbar />
         {children}
         <Analytics />
