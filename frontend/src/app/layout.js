@@ -8,7 +8,7 @@ import Navbar from "./components/navbar";
 
 const inter = Nunito({ subsets: ["latin"] });
 
-import localFont from '@next/font/local'
+import localFont from 'next/font/local'
 // const NunitoLocal = localFont({ src: './Nunito/Nunito-VariableFont_wght.ttf' })
 const DankMono = localFont({ src: './fonts/DankMono-italic.otf' })
 
