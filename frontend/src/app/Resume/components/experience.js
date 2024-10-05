@@ -1,11 +1,12 @@
 
-import localFont from 'next/font/local'
+// import localFont from 'next/font/local'
 // const NunitoLocal = localFont({ src: './Nunito/Nunito-VariableFont_wght.ttf' })
-const DankMonoItalic = localFont({ src: '../../fonts/DankMono-italic.otf' })
+// const DankMonoItalic = localFont({ src: '../../fonts/DankMono-italic.otf' })
 
 export default function Experience() {
   return (
-    <section id="experience" className={DankMonoItalic.className + " section"}>
+    // <section id="experience" className={DankMonoItalic.className + " section"}>
+    <section id="experience" className=" section">
       <div className="container">
         <div className="row wave-bg">
           <div className="zigzag wow slideInLeft">

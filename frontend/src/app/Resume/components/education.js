@@ -1,13 +1,14 @@
-import localFont from 'next/font/local'
+// import localFont from 'next/font/local'
 
 
-const NunitoLocal = localFont({ src: '../../fonts/Nunito/Nunito-VariableFont_wght.ttf' })
+// const NunitoLocal = localFont({ src: '../../fonts/Nunito/Nunito-VariableFont_wght.ttf' })
 
 
 
 export default function Education() {
   return (
-    <section id="education" className={NunitoLocal.className + " section"}>
+    // <section id="education" className={NunitoLocal.className + " section"}>
+    <section id="education" className=" section">
       <div className="container">
         <div className="row wave-bg">
           <div className="zigzag wow slideInLeft">
