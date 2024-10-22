@@ -22,6 +22,9 @@ export default function Portfolio() {
   const apparelstore = () => {
     window.open("https://apparel-stores.vercel.app");
   };
+  const lingoo = () => {
+    window.open("https://lingoo-shiv.vercel.app");
+  };
   return (
     <section id="portfolio" className="section section-small-padding">
       <div className="container">
@@ -89,6 +92,66 @@ export default function Portfolio() {
                     </div>
                     <div className="portfolio-date">
                       <span>June, 2023</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX"
+                  onClick={lingoo}>
+                  <a
+                    title="Duolingo"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img
+                        src="./images/Duolingo.png"
+                        alt="Duolingo"
+                      />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Duolingo</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>October, 2024</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX"
+                  onClick={visualmeet}>
+                  <a
+                    title="Visual Meet - a online meeting/conference App"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img
+                        src="./images/visual-meet.png"
+                        alt="visual-meet"
+                      />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Visual Meet</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>September, 2024</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX"
+                  onClick={apparelstore}>
+                  <a
+                    title="Apparel Store"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img
+                        src="./images/ApparelStore.png"
+                        alt="visual-meet"
+                      />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Apparel Store</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>September, 2024</span>
                     </div>
                   </a>
                 </div>
@@ -174,46 +237,8 @@ export default function Portfolio() {
                     </div>
                   </a>
                 </div>
-                <div className="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX"
-                  onClick={visualmeet}>
-                  <a
-                    title="Visual Meet - a online meeting/conference App"
-                    className="portfolio-box"
-                  >
-                    <div className="portfolio-img">
-                      <img
-                        src="./images/visual-meet.png"
-                        alt="visual-meet"
-                      />
-                    </div>
-                    <div className="portfolio-name">
-                      <span>Visual Meet</span>
-                    </div>
-                    <div className="portfolio-date">
-                      <span>September, 2024</span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX"
-                  onClick={apparelstore}>
-                  <a
-                    title="Apparel Store"
-                    className="portfolio-box"
-                  >
-                    <div className="portfolio-img">
-                      <img
-                        src="./images/ApparelStore.png"
-                        alt="visual-meet"
-                      />
-                    </div>
-                    <div className="portfolio-name">
-                      <span>Apparel Store</span>
-                    </div>
-                    <div className="portfolio-date">
-                      <span>September, 2024</span>
-                    </div>
-                  </a>
-                </div>
+
+
               </div>
             </div>
           </div>
