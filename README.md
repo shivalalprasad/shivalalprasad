@@ -33,7 +33,7 @@
 <br/>
 
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivalalprasad" alt="shivalalprasad" /></p>
-<p align="center"><span><img src="https://github-readme-stats.vercel.app/api?username=shivalalprasad&show_icons=true&locale=en" alt="shivalalprasad" /></span>&nbsp;<span><img src="https://github-readme-streak-stats.herokuapp.com/?user=shivalalprasad" alt="shivalalprasad" /></span></p>
+<p align="center"><span><img src="https://github-readme-stats.vercel.app/api?username=shivalalprasad&show_icons=true&locale=en" alt="shivalalprasad" /></span>&nbsp;<span><img src="https://github-readme-streak-stats.herokuapp.com/?user=shivalalprasad" alt="shivalalprasad-Progress" /></span></p>
 
 
 ###
