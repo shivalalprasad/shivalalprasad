@@ -25,6 +25,9 @@ export default function Portfolio() {
   const lingoo = () => {
     window.open("https://lingoo-shiv.vercel.app");
   };
+  const slack = () => {
+    window.open("https://slack-clone-shivalal-prasad.vercel.app");
+  };
   return (
     <section id="portfolio" className="section section-small-padding">
       <div className="container">
@@ -85,13 +88,31 @@ export default function Portfolio() {
                     className="portfolio-box"
                   >
                     <div className="portfolio-img">
-                      <img src="./images/Physics.png" />
+                      <img src="./images/Physics_16x9.png" />
                     </div>
                     <div className="portfolio-name">
                       <span>Physics Department web app</span>
                     </div>
                     <div className="portfolio-date">
                       <span>June, 2023</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX"
+                  onClick={slack}
+                >
+                  <a
+                    title="Physics Department web app"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img src="./images/slack_16x9.png" />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Slack</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>November, 2024</span>
                     </div>
                   </a>
                 </div>
@@ -103,7 +124,7 @@ export default function Portfolio() {
                   >
                     <div className="portfolio-img">
                       <img
-                        src="./images/Duolingo.png"
+                        src="./images/Duolingo_16x9.png"
                         alt="Duolingo"
                       />
                     </div>
@@ -123,7 +144,7 @@ export default function Portfolio() {
                   >
                     <div className="portfolio-img">
                       <img
-                        src="./images/visual-meet.png"
+                        src="./images/visual-meet_16x9.png"
                         alt="visual-meet"
                       />
                     </div>
@@ -143,7 +164,7 @@ export default function Portfolio() {
                   >
                     <div className="portfolio-img">
                       <img
-                        src="./images/ApparelStore.png"
+                        src="./images/ApparelStore_16x9.png"
                         alt="visual-meet"
                       />
                     </div>
@@ -164,7 +185,7 @@ export default function Portfolio() {
                   >
                     <div className="portfolio-img">
                       <img
-                        src="./images/redbus.png"
+                        src="./images/redbus_16x9.png"
                         alt=""
                       />
                     </div>
@@ -177,26 +198,6 @@ export default function Portfolio() {
                   </a>
                 </div>
                 <div className="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX"
-                  onClick={GmailClick}>
-                  <a
-                    title="Gmail - Frontend clone"
-                    className="portfolio-box"
-                  >
-                    <div className="portfolio-img">
-                      <img
-                        src="./images/gmail.png"
-                        alt=""
-                      />
-                    </div>
-                    <div className="portfolio-name">
-                      <span>Gmail - Frontend clone</span>
-                    </div>
-                    <div className="portfolio-date">
-                      <span>June, 2024</span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX"
                   onClick={YoutubeClick}>
                   <a
                     title="Youtube - Frontend"
@@ -204,7 +205,7 @@ export default function Portfolio() {
                   >
                     <div className="portfolio-img">
                       <img
-                        src="./images/youtube.png"
+                        src="./images/youtube_16x9.png"
                         alt=""
                       />
                     </div>
@@ -225,7 +226,7 @@ export default function Portfolio() {
                   >
                     <div className="portfolio-img">
                       <img
-                        src="./images/ipdc.png"
+                        src="./images/ipdc_16x9.png"
                         alt=""
                       />
                     </div>
@@ -238,7 +239,26 @@ export default function Portfolio() {
                   </a>
                 </div>
 
-
+                {/* <div className="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX"
+                  onClick={GmailClick}>
+                  <a
+                    title="Gmail - Frontend clone"
+                    className="portfolio-box"
+                  >
+                    <div className="portfolio-img">
+                      <img
+                        src="./images/gmail_16x9.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="portfolio-name">
+                      <span>Gmail - Frontend clone</span>
+                    </div>
+                    <div className="portfolio-date">
+                      <span>June, 2024</span>
+                    </div>
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>

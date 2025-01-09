@@ -69,7 +69,7 @@ export default function Hello() {
               <div className="about-btns">
                 <a></a>
                 <a
-                  href="https://drive.google.com/file/d/1AdQqd0N2A97cKKPD6EaqCBx1nVaeyin6/view"
+                  href="https://drive.google.com/file/d/1OIjsSsKF1ulIS-LI56E-qsAsLJYAiOsw"
                   className="site-btn dgray-btn"
                   target="_blank">
                   Resume</a>
